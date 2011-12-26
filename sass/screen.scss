@@ -210,7 +210,6 @@ body {
   
   #social {
     @include column(24);
-    margin-top: 40px;
 
     .fb-comments {
       @include column(16);
@@ -223,7 +222,6 @@ body {
   
   #faq {
     @include column(24);
-    margin-top: 40px;
         
     div {
       @include column(8);
@@ -246,6 +244,23 @@ body {
     
     #justdonate {
       @include last;
+    }
+  }
+  
+  .sectionhead {
+    @include column(24);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    a {
+      @include float-right;
+      @include unstyled-link; 
+      text-transform: uppercase;
+      color: lighten($text-color, 40%);
+      font-size: 10px;
+      &:before {
+        content: "^";
+        margin-right: 5px;
+      }     
     }
   }
 

@@ -414,13 +414,12 @@ body #social {
   float: left;
   margin-right: 10px;
   width: 950px;
-  margin-top: 40px;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #social {
   overflow-x: hidden;
 }
-/* line 215, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
@@ -431,7 +430,7 @@ body #social .fb-comments {
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 219, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 body #social .twtr-widget {
   display: inline;
   float: left;
@@ -442,19 +441,18 @@ body #social .twtr-widget {
 * html body #social .twtr-widget {
   overflow-x: hidden;
 }
-/* line 224, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 body #faq {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 950px;
-  margin-top: 40px;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #faq {
   overflow-x: hidden;
 }
-/* line 228, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 body #faq div {
   display: inline;
   float: left;
@@ -466,20 +464,53 @@ body #faq div {
 * html body #faq div {
   overflow-x: hidden;
 }
-/* line 233, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 body #faq div h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 22px;
   color: #1b1b1b;
 }
-/* line 239, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 body #faq div p {
   font-family: arial;
   font-size: 14px;
   line-height: 18px;
   color: #353535;
 }
-/* line 247, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 body #faq #justdonate {
   margin-right: 0;
+}
+/* line 250, ../sass/screen.scss */
+body .sectionhead {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 950px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .sectionhead {
+  overflow-x: hidden;
+}
+/* line 254, ../sass/screen.scss */
+body .sectionhead a {
+  display: inline;
+  float: right;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  text-transform: uppercase;
+  color: #818181;
+  font-size: 10px;
+}
+/* line 6, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+body .sectionhead a:active, body .sectionhead a:focus {
+  outline: none;
+}
+/* line 260, ../sass/screen.scss */
+body .sectionhead a:before {
+  content: "^";
+  margin-right: 5px;
 }
