@@ -245,7 +245,7 @@ body #content h2 {
 body #content h2 strong {
   font-size: 50px;
   line-height: 50px;
-  color: #f1684e;
+  color: #f1584e;
 }
 /* line 124, ../sass/screen.scss */
 body #content #thebrain, body #content #thepc {
@@ -362,32 +362,24 @@ body #content a.action {
   padding: 20px;
   margin-top: 15px;
   text-align: center;
-  font-family: 'Passion One', cursive;
+  font-family: Arial;
+  font-weight: bold;
   text-transform: uppercase;
-  font-size: 60px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
-  color: #f8b9ad;
-  background-color: #6b1808;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9a230c), color-stop(100%, #3b0d05));
-  background-image: -webkit-linear-gradient(#9a230c, #3b0d05);
-  background-image: -moz-linear-gradient(#9a230c, #3b0d05);
-  background-image: -o-linear-gradient(#9a230c, #3b0d05);
-  background-image: -ms-linear-gradient(#9a230c, #3b0d05);
-  background-image: linear-gradient(#9a230c, #3b0d05);
-  -moz-transition-property: all;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  color: #f8b1ad;
+  background-color: #6b0e08;
+  text-shadow: #3b0805 0px 3px 0px, black 0px 3px 8px;
+  -moz-box-shadow: #530b07 0px 20px 30px, #0c0201 0px 15px 0, #82120a 0px 0px 0px 2px inset;
+  -webkit-box-shadow: #530b07 0px 20px 30px, #0c0201 0px 15px 0, #82120a 0px 0px 0px 2px inset;
+  -o-box-shadow: #530b07 0px 20px 30px, #0c0201 0px 15px 0, #82120a 0px 0px 0px 2px inset;
+  box-shadow: #530b07 0px 20px 30px, #0c0201 0px 15px 0, #82120a 0px 0px 0px 2px inset;
 }
 /* line 6, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
 body #content a.action:active, body #content a.action:focus {
@@ -397,27 +389,26 @@ body #content a.action:active, body #content a.action:focus {
 * html body #content a.action {
   overflow-x: hidden;
 }
-/* line 198, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 body #content a.action:hover {
-  color: #fce1dc;
-  background-color: #9a230c;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c92d10), color-stop(100%, #6b1808));
-  background-image: -webkit-linear-gradient(#c92d10, #6b1808);
-  background-image: -moz-linear-gradient(#c92d10, #6b1808);
-  background-image: -o-linear-gradient(#c92d10, #6b1808);
-  background-image: -ms-linear-gradient(#c92d10, #6b1808);
-  background-image: linear-gradient(#c92d10, #6b1808);
-  -moz-transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  -o-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
-  -moz-box-shadow: 0px 10px 20px #818181;
-  -webkit-box-shadow: 0px 10px 20px #818181;
-  -o-box-shadow: 0px 10px 20px #818181;
-  box-shadow: 0px 10px 20px #818181;
+  color: #fcdedc;
+  background-color: #c91b10;
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 0px 5px, #3b0805 0px 3px 0px, black 0px 3px 8px;
+  -moz-box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
+  -webkit-box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
+  -o-box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
+  box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
 }
-/* line 208, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
+body #content a.action:active {
+  position: relative;
+  top: 5px;
+  -moz-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
+  -webkit-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
+  -o-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
+  box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
+}
+/* line 211, ../sass/screen.scss */
 body #social {
   display: inline;
   float: left;
@@ -429,7 +420,7 @@ body #social {
 * html body #social {
   overflow-x: hidden;
 }
-/* line 212, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
@@ -440,7 +431,7 @@ body #social .fb-comments {
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 216, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 body #social .twtr-widget {
   display: inline;
   float: left;
@@ -451,7 +442,7 @@ body #social .twtr-widget {
 * html body #social .twtr-widget {
   overflow-x: hidden;
 }
-/* line 221, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 body #faq {
   display: inline;
   float: left;
@@ -463,7 +454,7 @@ body #faq {
 * html body #faq {
   overflow-x: hidden;
 }
-/* line 225, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 body #faq div {
   display: inline;
   float: left;
@@ -475,20 +466,20 @@ body #faq div {
 * html body #faq div {
   overflow-x: hidden;
 }
-/* line 230, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 body #faq div h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 22px;
   color: #1b1b1b;
 }
-/* line 236, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 body #faq div p {
   font-family: arial;
   font-size: 14px;
   line-height: 18px;
   color: #353535;
 }
-/* line 244, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 body #faq #justdonate {
   margin-right: 0;
 }

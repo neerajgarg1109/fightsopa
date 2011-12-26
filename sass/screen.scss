@@ -9,7 +9,7 @@
 @import "compass/typography/links/unstyled-link";
 
 $background-color: #E4E4E4;
-$action-color: #F1684E;
+$action-color: #F1584E;
 $text-color: #1B1B1B;
 
 $header-height: 30px;
@@ -183,24 +183,27 @@ body {
       padding: 20px;
       margin-top: 15px;
       text-align: center;
-      font-family: 'Passion One', cursive;
+      font-family: Arial; // 'Passion One', cursive;
+      font-weight: bold;
       text-transform: uppercase;
-      font-size: 60px;
-      line-height: 50px;
+      font-size: 40px;
+      line-height: 40px;
       @include border-radius(10px);
 
       color: lighten($action-color, 20%);
       background-color: darken($action-color, 40%);
-      @include background-image(linear-gradient(darken($action-color, 30%), darken($action-color, 50%)));
-
-      @include single-transition(all, 0.3s);
-
+      @include text-shadow(darken($action-color, 50%) 0px 3px 0px, black 0px 3px 8px);
+      @include box-shadow(darken($action-color, 45%) 0px 20px 30px, darken($action-color, 60%) 0px 15px 0, darken($action-color, 35%) 0px 0px 0px 2px inset);
       &:hover {
         color: lighten($action-color, 30%);
-        background-color: darken($action-color, 30%);
-        @include background-image(linear-gradient(darken($action-color, 20%), darken($action-color, 40%)));
-        @include scale(1.1);
-        @include single-box-shadow(lighten($text-color, 40%), 0px, 10px, 20px);
+        background-color: darken($action-color, 20%);
+        @include text-shadow(rgba(lighten($action-color, 40%), 0.8) 0px 0px 5px, darken($action-color, 50%) 0px 3px 0px, black 0px 3px 8px);
+        @include box-shadow(darken($action-color, 35%) 0px 20px 30px, darken($action-color, 50%) 0px 15px 0, darken($action-color, 15%) 0px 0px 0px 2px inset);
+      }
+      &:active {
+        position: relative;
+        top: 5px;
+        @include box-shadow(darken($action-color, 45%) 0px 15px 30px, darken($action-color, 60%) 0px 10px 0, darken($action-color, 35%) 0px 0px 0px 2px inset);
       }
     }    
   }
