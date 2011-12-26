@@ -94,7 +94,7 @@ body #footer {
   margin-right: 10px;
   width: 950px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #footer {
   overflow-x: hidden;
 }
@@ -189,7 +189,7 @@ body #content {
   margin-right: 10px;
   width: 950px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content {
   overflow-x: hidden;
 }
@@ -205,7 +205,7 @@ body #content h4 {
   font-size: 22px;
   margin-bottom: 10px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content h4 {
   overflow-x: hidden;
 }
@@ -221,7 +221,7 @@ body #content h3 {
   font-size: 30px;
   margin-bottom: 10px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content h3 {
   overflow-x: hidden;
 }
@@ -237,7 +237,7 @@ body #content h2 {
   font-size: 40px;
   line-height: 50px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content h2 {
   overflow-x: hidden;
 }
@@ -254,7 +254,7 @@ body #content #thebrain, body #content #thepc {
   margin-right: 10px;
   width: 190px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content #thebrain, * html body #content #thepc {
   overflow-x: hidden;
 }
@@ -265,7 +265,7 @@ body #content #thedonation {
   margin-right: 10px;
   width: 190px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content #thedonation {
   overflow-x: hidden;
 }
@@ -276,7 +276,7 @@ body #content #thefight {
   margin-right: 0;
   width: 190px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content #thefight {
   overflow-x: hidden;
 }
@@ -287,7 +287,7 @@ body #content .plus {
   margin-right: 10px;
   width: 30px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content .plus {
   overflow-x: hidden;
 }
@@ -298,7 +298,7 @@ body #content .equal {
   margin-right: 10px;
   width: 70px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content .equal {
   overflow-x: hidden;
 }
@@ -393,7 +393,7 @@ body #content a.action {
 body #content a.action:active, body #content a.action:focus {
   outline: none;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #content a.action {
   overflow-x: hidden;
 }
@@ -423,30 +423,72 @@ body #social {
   float: left;
   margin-right: 10px;
   width: 950px;
+  margin-top: 40px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #social {
   overflow-x: hidden;
 }
-/* line 211, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 630px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 body #social .fb-like-box {
   display: inline;
   float: left;
   margin-right: 0;
   width: 310px;
 }
-/* line 147, /Users/federico/.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #social .fb-like-box {
   overflow-x: hidden;
+}
+/* line 221, ../sass/screen.scss */
+body #faq {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 950px;
+  margin-top: 40px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #faq {
+  overflow-x: hidden;
+}
+/* line 225, ../sass/screen.scss */
+body #faq div {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+  text-align: justify;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #faq div {
+  overflow-x: hidden;
+}
+/* line 230, ../sass/screen.scss */
+body #faq div h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 22px;
+  color: #1b1b1b;
+}
+/* line 236, ../sass/screen.scss */
+body #faq div p {
+  font-family: arial;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353535;
+}
+/* line 244, ../sass/screen.scss */
+body #faq #justdonate {
+  margin-right: 0;
 }

@@ -203,10 +203,11 @@ body {
         @include single-box-shadow(lighten($text-color, 40%), 0px, 10px, 20px);
       }
     }    
-  } 
+  }
   
   #social {
     @include column(24);
+    margin-top: 40px;
 
     .fb-comments {
       @include column(16);
@@ -215,7 +216,35 @@ body {
     .fb-like-box {
       @include column(8, true);
     }
-
   }
+  
+  #faq {
+    @include column(24);
+    margin-top: 40px;
+        
+    div {
+      @include column(8);
+      
+      text-align: justify;
+      
+      h3 {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 22px;
+        color: $text-color;
+      }
+      
+      p {
+        font-family: arial;
+        font-size: 14px;
+        line-height: 18px;
+        color: lighten($text-color, 10%);
+      }
+    }
+    
+    #justdonate {
+      @include last;
+    }
+  }
+
 }
 
