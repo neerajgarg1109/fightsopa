@@ -1,0 +1,221 @@
+@import "blueprint/reset";
+
+@import "partials/base";
+
+@import "blueprint";
+
+@import "compass/css3";
+@import "compass/typography/lists";
+@import "compass/typography/links/unstyled-link";
+
+$background-color: #E4E4E4;
+$action-color: #F1684E;
+$text-color: #1B1B1B;
+
+$header-height: 30px;
+$header-background-color: $text-color;
+
+// Page layout can be done using mixins applied to your semantic classes and IDs:
+body {  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow: auto;
+  position: relative;
+  min-height: 100%; 
+  background: $background-color;
+  @include background(image-url("/images/bg_fightsopa.gif"));
+  
+  #share {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    .twitter-share-button, .fb-facepile {
+      display: block;
+      margin-bottom: 10px;
+      z-index: -5;
+    }
+  }
+  
+  #container {
+    // @include showgrid;
+    @include container;
+    @include background(image-url("/images/bg_fightsopa.gif"));
+  }
+  
+  #footer {
+    @include column($blueprint-grid-columns);
+  }
+  
+  #header {
+    position: fixed;
+    z-index: 999;
+    @include background(image-url("/images/bg_fightsopa.gif"));
+    width: $blueprint-container-size;
+    height: $header-height;
+    border-bottom: 2px solid lighten($text-color, 50%); 
+    
+    ul {
+      @include horizontal-list;
+      @include float-right;
+      li {
+        line-height: $header-height;
+        a {
+          font-family: 'PT Sans Narrow', sans-serif;
+          @include unstyled-link;
+          color: lighten($text-color, 40%);
+          margin-left: 30px;
+          cursor: pointer;
+          @include single-transition(all, 0.3s);
+          &:hover {
+            color: $text-color;
+          }
+        }
+      }
+    }
+  }
+  
+  #footer {    
+    border-top: 2px solid $text-color;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: lighten($text-color, 20%);
+  }
+ 
+  #content {
+    margin-top: $header-height + 5px;
+    @include column($blueprint-grid-columns);
+    
+    h4 {
+      @include column($blueprint-grid-columns);
+      font-family: 'PT Sans Narrow', sans-serif;
+      text-align: justify;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      @include column($blueprint-grid-columns);
+      font-family: 'Passion One', cursive;
+      text-align: justify;
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      @include column($blueprint-grid-columns);
+      font-family: 'PT Sans Narrow', sans-serif;
+      text-align: justify;
+      text-transform: uppercase;
+      font-size: 40px;
+      line-height: 50px;
+      strong {
+        font-size: 50px;
+        line-height: 50px;
+        color: $action-color;
+      }
+    }
+    
+    #thebrain, #thepc {
+      @include column(5);
+    }
+    
+    #thedonation {
+      @include column(5);
+    }
+
+    #thefight {
+      @include column(5, true);
+    }
+    
+    .plus {
+      @include column(1);
+    }
+
+    .equal {
+      @include column(2);
+    }
+    
+    $symbols-size: 100px;
+    
+    .plus, .equal {
+      font-family: Arial;
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      line-height: $symbols-size;
+      color: lighten($text-color, 20%);
+    }
+    
+    .actionbox {
+      height: $symbols-size;
+      @include single-transition(all, 0.3s);
+      &:hover {
+        @include scale(1.5);
+      }
+    }
+    
+    .actionbox svg {
+      width: $symbols-size;
+      height: $symbols-size;
+      position: relative;
+      left: floor((span(5) - $symbols-size) / 2);
+    }
+    
+    #thedonation svg {
+      $donation-size: floor($symbols-size / 1.23);
+      width: $donation-size;
+      height: $donation-size;
+      left: floor((span(5) - $donation-size) / 2);
+      top: floor(($symbols-size - $donation-size) / 2);
+    }
+    
+    a.action {
+      @include unstyled-link;
+      cursor: pointer;
+      @include column(8, true);
+      @include push(8);
+      padding: 20px;
+      margin-top: 15px;
+      text-align: center;
+      font-family: 'Passion One', cursive;
+      text-transform: uppercase;
+      font-size: 60px;
+      line-height: 50px;
+      @include border-radius(10px);
+
+      color: lighten($action-color, 20%);
+      background-color: darken($action-color, 40%);
+      @include background-image(linear-gradient(darken($action-color, 30%), darken($action-color, 50%)));
+
+      @include single-transition(all, 0.3s);
+
+      &:hover {
+        color: lighten($action-color, 30%);
+        background-color: darken($action-color, 30%);
+        @include background-image(linear-gradient(darken($action-color, 20%), darken($action-color, 40%)));
+        @include scale(1.1);
+        @include single-box-shadow(lighten($text-color, 40%), 0px, 10px, 20px);
+      }
+    }    
+  } 
+  
+  #social {
+    @include column(24);
+
+    .fb-comments {
+      @include column(16);
+    }
+    
+    .fb-like-box {
+      @include column(8, true);
+    }
+
+  }
+}
+
