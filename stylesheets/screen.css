@@ -74,7 +74,7 @@ body #share {
   left: 5px;
 }
 /* line 32, ../sass/screen.scss */
-body #share .twitter-share-button, body #share .fb-facepile {
+body #share .twitter-share-button, body #share .fb-sopa, body #share .fb-facepile {
   display: block;
   margin-bottom: 10px;
   z-index: -5;
@@ -441,14 +441,14 @@ body #social .fb-comments {
   overflow-x: hidden;
 }
 /* line 216, ../sass/screen.scss */
-body #social .fb-like-box {
+body #social .twtr-widget {
   display: inline;
   float: left;
   margin-right: 0;
   width: 310px;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #social .fb-like-box {
+* html body #social .twtr-widget {
   overflow-x: hidden;
 }
 /* line 221, ../sass/screen.scss */
