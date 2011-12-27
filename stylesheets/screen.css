@@ -74,7 +74,7 @@ body #share {
   left: 5px;
 }
 /* line 32, ../sass/screen.scss */
-body #share .twitter-share-button, body #share .fb-sopa, body #share .fb-facepile {
+body #share div, body #share iframe, body #share .twitter-share-button, body #share .g-plusone, body #share .fb-sopa, body #share .fb-facepile {
   display: block;
   margin-bottom: 10px;
   z-index: -5;
