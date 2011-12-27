@@ -419,7 +419,7 @@ body #content #counterbox {
   width: 310px;
   margin-top: 10px;
   text-align: center;
-  background-color: #cbcbcb;
+  background-color: #e1e1e1;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
@@ -431,32 +431,28 @@ body #content #counterbox {
 * html body #content #counterbox {
   overflow-x: hidden;
 }
-/* line 223, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 body #content #counterbox h5 {
+  color: text-color;
   font-family: 'Passion One', cursive;
   font-size: 40px;
-  background-color: rgba(82, 96, 117, 0.5);
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  -o-background-clip: text;
-  -ms-background-clip: text;
-  -khtml-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: white 0 5px 5px;
 }
-/* line 230, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 body #content #counterbox h5 span {
   font-size: 100px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 body #content #counterbox p {
   margin-top: -10px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
   color: #8b8b8b;
 }
-/* line 243, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
+body #content #counterbox.loading h5 {
+  color: #cecece;
+}
+/* line 247, ../sass/screen.scss */
 body #social {
   display: inline;
   float: left;
@@ -467,7 +463,7 @@ body #social {
 * html body #social {
   overflow-x: hidden;
 }
-/* line 246, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
@@ -478,7 +474,7 @@ body #social .fb-comments {
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 250, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 body #social .twtr-widget {
   display: inline;
   float: left;
@@ -489,7 +485,7 @@ body #social .twtr-widget {
 * html body #social .twtr-widget {
   overflow-x: hidden;
 }
-/* line 255, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 body #faq {
   display: inline;
   float: left;
@@ -500,7 +496,7 @@ body #faq {
 * html body #faq {
   overflow-x: hidden;
 }
-/* line 258, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 body #faq div {
   display: inline;
   float: left;
@@ -512,24 +508,24 @@ body #faq div {
 * html body #faq div {
   overflow-x: hidden;
 }
-/* line 263, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 body #faq div h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 22px;
   color: #1b1b1b;
 }
-/* line 269, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 body #faq div p {
   font-family: arial;
   font-size: 14px;
   line-height: 18px;
   color: #353535;
 }
-/* line 277, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 body #faq #justdonate {
   margin-right: 0;
 }
-/* line 282, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 body .sectionhead {
   display: inline;
   float: left;
@@ -542,7 +538,7 @@ body .sectionhead {
 * html body .sectionhead {
   overflow-x: hidden;
 }
-/* line 286, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 body .sectionhead a {
   display: inline;
   float: right;
@@ -557,7 +553,7 @@ body .sectionhead a {
 body .sectionhead a:active, body .sectionhead a:focus {
   outline: none;
 }
-/* line 292, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 body .sectionhead a:before {
   content: "^";
   margin-right: 5px;

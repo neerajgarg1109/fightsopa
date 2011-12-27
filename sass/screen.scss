@@ -218,15 +218,13 @@ body {
       @include column(8, true);
       margin-top: 10px;
       text-align: center;
-      background-color: darken($background-color, 10%);
+      background-color: darken($background-color, 1%);
       @include border-radius(10px);
+
       h5 {
+        color: text-color;
         font-family: 'Passion One', cursive;
         font-size: 40px;
-        background-color: rgba(82,96,117,0.5);
-        @include background-clip(text);
-        color: transparent;
-        @include text-shadow(#fff 0 5px 5px);
         span {
           font-size: 100px;
         }
@@ -236,6 +234,12 @@ body {
         font-family: 'PT Sans Narrow', sans-serif;
         font-size: 30px;
         color: darken($background-color, 35%);
+      }
+    }
+    
+    #counterbox.loading {
+      h5 {
+        color: lighten($text-color, 70%);
       }
     } 
   }

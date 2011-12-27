@@ -118,8 +118,8 @@
       <div id="action">
         <a href="http://www.gild.com/">Take me to the puzzle</a>
       </div>
-      <div id="counterbox">
-        <h5><span id="raisedmoney">50,000</span>$</h5>
+      <div id="counterbox" class="loading">
+        <h5><span id="raisedmoney">--,---</span>$</h5>
         <p>of 50,000$, raised so far.</p>
       </div>
       
@@ -205,8 +205,16 @@ new TWTR.Widget({
     <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
   
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript">
+  window.updateApp = function(data) {
+    var total = data['total'];
+    var formatted = total >= 1000 ? Math.floor(total / 1000) + "," + (total % 1000) : total;
+    $("#raisedmoney").text(formatted);
+    $("#counterbox").removeClass("loading");
+  };
+  
   $(function() {
     
     function scrollableElement(els) {
@@ -241,5 +249,6 @@ new TWTR.Widget({
     });
   });
   </script>
+  <script src="http://api.coderloop.com/sopa/stats" type="text/javascript"></script>
 </body>
 </html>
