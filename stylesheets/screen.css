@@ -346,20 +346,27 @@ body #content #thedonation svg {
   top: 9px;
 }
 /* line 178, ../sass/screen.scss */
-body #content a.action {
+body #content #action {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+  padding-left: 80px;
+  padding-right: 160px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #action {
+  overflow-x: hidden;
+}
+/* line 183, ../sass/screen.scss */
+body #content #action a {
+  display: block;
+  width: 310px;
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
   cursor: pointer;
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 310px;
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0 -320px 1.5em 320px;
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 15px;
   text-align: center;
   font-family: Arial;
@@ -382,15 +389,11 @@ body #content a.action {
   box-shadow: #530b07 0px 20px 30px, #0c0201 0px 15px 0, #82120a 0px 0px 0px 2px inset;
 }
 /* line 6, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
-body #content a.action:active, body #content a.action:focus {
+body #content #action a:active, body #content #action a:focus {
   outline: none;
 }
-/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content a.action {
-  overflow-x: hidden;
-}
-/* line 197, ../sass/screen.scss */
-body #content a.action:hover {
+/* line 202, ../sass/screen.scss */
+body #content #action a:hover {
   color: #fcdedc;
   background-color: #c91b10;
   text-shadow: rgba(255, 255, 255, 0.8) 0px 0px 5px, #3b0805 0px 3px 0px, black 0px 3px 8px;
@@ -399,8 +402,8 @@ body #content a.action:hover {
   -o-box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
   box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
 }
-/* line 203, ../sass/screen.scss */
-body #content a.action:active {
+/* line 208, ../sass/screen.scss */
+body #content #action a:active {
   position: relative;
   top: 5px;
   -moz-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
@@ -408,7 +411,52 @@ body #content a.action:active {
   -o-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
   box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
 }
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
+body #content #counterbox {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #cbcbcb;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p180@fightsopa/gems/compass-0.11.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content #counterbox {
+  overflow-x: hidden;
+}
+/* line 223, ../sass/screen.scss */
+body #content #counterbox h5 {
+  font-family: 'Passion One', cursive;
+  font-size: 40px;
+  background-color: rgba(82, 96, 117, 0.5);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -khtml-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: white 0 5px 5px;
+}
+/* line 230, ../sass/screen.scss */
+body #content #counterbox h5 span {
+  font-size: 100px;
+}
+/* line 234, ../sass/screen.scss */
+body #content #counterbox p {
+  margin-top: -10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  color: #8b8b8b;
+}
+/* line 243, ../sass/screen.scss */
 body #social {
   display: inline;
   float: left;
@@ -419,7 +467,7 @@ body #social {
 * html body #social {
   overflow-x: hidden;
 }
-/* line 214, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
@@ -430,7 +478,7 @@ body #social .fb-comments {
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 218, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 body #social .twtr-widget {
   display: inline;
   float: left;
@@ -441,7 +489,7 @@ body #social .twtr-widget {
 * html body #social .twtr-widget {
   overflow-x: hidden;
 }
-/* line 223, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 body #faq {
   display: inline;
   float: left;
@@ -452,7 +500,7 @@ body #faq {
 * html body #faq {
   overflow-x: hidden;
 }
-/* line 226, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 body #faq div {
   display: inline;
   float: left;
@@ -464,24 +512,24 @@ body #faq div {
 * html body #faq div {
   overflow-x: hidden;
 }
-/* line 231, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 body #faq div h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 22px;
   color: #1b1b1b;
 }
-/* line 237, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 body #faq div p {
   font-family: arial;
   font-size: 14px;
   line-height: 18px;
   color: #353535;
 }
-/* line 245, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 body #faq #justdonate {
   margin-right: 0;
 }
-/* line 250, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 body .sectionhead {
   display: inline;
   float: left;
@@ -494,7 +542,7 @@ body .sectionhead {
 * html body .sectionhead {
   overflow-x: hidden;
 }
-/* line 254, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 body .sectionhead a {
   display: inline;
   float: right;
@@ -509,7 +557,7 @@ body .sectionhead a {
 body .sectionhead a:active, body .sectionhead a:focus {
   outline: none;
 }
-/* line 260, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 body .sectionhead a:before {
   content: "^";
   margin-right: 5px;
