@@ -106,6 +106,14 @@ body {
       margin-bottom: 10px;
     }
     
+    h3, h4 {
+      a {
+        @include unstyled-link;
+        color: darken($action-color, 10%);
+        cursor: pointer;
+      }
+    }
+    
     h2 {
       @include column($blueprint-grid-columns);
       font-family: 'PT Sans Narrow', sans-serif;
