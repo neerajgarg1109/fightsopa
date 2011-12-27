@@ -109,6 +109,9 @@ body {
     h2 {
       @include column($blueprint-grid-columns);
       font-family: 'PT Sans Narrow', sans-serif;
+      margin-top: 5px;
+      border-top: 4px solid #600;
+      border-bottom: 4px solid #600;
       text-align: justify;
       text-transform: uppercase;
       font-size: 40px;

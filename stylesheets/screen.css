@@ -231,6 +231,9 @@ body #content h2 {
   margin-right: 10px;
   width: 950px;
   font-family: 'PT Sans Narrow', sans-serif;
+  margin-top: 5px;
+  border-top: 4px solid #600;
+  border-bottom: 4px solid #600;
   text-align: justify;
   text-transform: uppercase;
   font-size: 40px;
@@ -240,13 +243,13 @@ body #content h2 {
 * html body #content h2 {
   overflow-x: hidden;
 }
-/* line 116, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 body #content h2 strong {
   font-size: 50px;
   line-height: 50px;
   color: #f1584e;
 }
-/* line 123, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 body #content #thebrain, body #content #thepc {
   display: inline;
   float: left;
@@ -257,7 +260,7 @@ body #content #thebrain, body #content #thepc {
 * html body #content #thebrain, * html body #content #thepc {
   overflow-x: hidden;
 }
-/* line 127, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 body #content #thedonation {
   display: inline;
   float: left;
@@ -268,7 +271,7 @@ body #content #thedonation {
 * html body #content #thedonation {
   overflow-x: hidden;
 }
-/* line 131, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 body #content #thefight {
   display: inline;
   float: left;
@@ -279,7 +282,7 @@ body #content #thefight {
 * html body #content #thefight {
   overflow-x: hidden;
 }
-/* line 135, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 body #content .plus {
   display: inline;
   float: left;
@@ -290,7 +293,7 @@ body #content .plus {
 * html body #content .plus {
   overflow-x: hidden;
 }
-/* line 139, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 body #content .equal {
   display: inline;
   float: left;
@@ -301,7 +304,7 @@ body #content .equal {
 * html body #content .equal {
   overflow-x: hidden;
 }
-/* line 145, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 body #content .plus, body #content .equal {
   font-family: Arial;
   text-align: center;
@@ -310,7 +313,7 @@ body #content .plus, body #content .equal {
   line-height: 100px;
   color: #4e4e4e;
 }
-/* line 154, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 body #content .actionbox {
   height: 100px;
   -moz-transition-property: all;
@@ -322,7 +325,7 @@ body #content .actionbox {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 157, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 body #content .actionbox:hover {
   -moz-transform: scale(1.5, 1.5);
   -webkit-transform: scale(1.5, 1.5);
@@ -330,21 +333,21 @@ body #content .actionbox:hover {
   -ms-transform: scale(1.5, 1.5);
   transform: scale(1.5, 1.5);
 }
-/* line 162, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 body #content .actionbox svg {
   width: 100px;
   height: 100px;
   position: relative;
   left: 45px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 body #content #thedonation svg {
   width: 81px;
   height: 81px;
   left: 54px;
   top: 9px;
 }
-/* line 177, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 body #content #action {
   display: inline;
   float: left;
@@ -357,7 +360,7 @@ body #content #action {
 * html body #content #action {
   overflow-x: hidden;
 }
-/* line 182, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 body #content #action a {
   display: block;
   width: 310px;
@@ -391,7 +394,7 @@ body #content #action a {
 body #content #action a:active, body #content #action a:focus {
   outline: none;
 }
-/* line 201, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 body #content #action a:hover {
   color: #fcdedc;
   background-color: #c91b10;
@@ -401,7 +404,7 @@ body #content #action a:hover {
   -o-box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
   box-shadow: #82120a 0px 20px 30px, #3b0805 0px 15px 0, #e11e12 0px 0px 0px 2px inset;
 }
-/* line 207, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 body #content #action a:active {
   position: relative;
   top: 5px;
@@ -410,7 +413,7 @@ body #content #action a:active {
   -o-box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
   box-shadow: #530b07 0px 15px 30px, #0c0201 0px 10px 0, #82120a 0px 0px 0px 2px inset;
 }
-/* line 216, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 body #content #counterbox {
   display: inline;
   float: left;
@@ -430,28 +433,28 @@ body #content #counterbox {
 * html body #content #counterbox {
   overflow-x: hidden;
 }
-/* line 223, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 body #content #counterbox h5 {
   color: text-color;
   font-family: 'Passion One', cursive;
   font-size: 40px;
 }
-/* line 227, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 body #content #counterbox h5 span {
   font-size: 100px;
 }
-/* line 231, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 body #content #counterbox p {
   margin-top: -10px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
   color: #8b8b8b;
 }
-/* line 240, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 body #content #counterbox.loading h5 {
   color: #cecece;
 }
-/* line 246, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 body #social {
   display: inline;
   float: left;
@@ -462,7 +465,7 @@ body #social {
 * html body #social {
   overflow-x: hidden;
 }
-/* line 249, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 body #social .fb-comments {
   display: inline;
   float: left;
@@ -473,7 +476,7 @@ body #social .fb-comments {
 * html body #social .fb-comments {
   overflow-x: hidden;
 }
-/* line 253, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 body #social .twtr-widget {
   display: inline;
   float: left;
@@ -484,7 +487,7 @@ body #social .twtr-widget {
 * html body #social .twtr-widget {
   overflow-x: hidden;
 }
-/* line 258, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 body #faq {
   display: inline;
   float: left;
@@ -495,7 +498,7 @@ body #faq {
 * html body #faq {
   overflow-x: hidden;
 }
-/* line 261, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 body #faq div {
   display: inline;
   float: left;
@@ -507,24 +510,24 @@ body #faq div {
 * html body #faq div {
   overflow-x: hidden;
 }
-/* line 266, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 body #faq div h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 22px;
   color: #1b1b1b;
 }
-/* line 272, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 body #faq div p {
   font-family: arial;
   font-size: 14px;
   line-height: 18px;
   color: #353535;
 }
-/* line 280, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 body #faq #justdonate {
   margin-right: 0;
 }
-/* line 285, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 body .sectionhead {
   display: inline;
   float: left;
@@ -537,7 +540,7 @@ body .sectionhead {
 * html body .sectionhead {
   overflow-x: hidden;
 }
-/* line 289, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 body .sectionhead a {
   display: inline;
   float: right;
@@ -552,7 +555,7 @@ body .sectionhead a {
 body .sectionhead a:active, body .sectionhead a:focus {
   outline: none;
 }
-/* line 295, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 body .sectionhead a:before {
   content: "^";
   margin-right: 5px;
