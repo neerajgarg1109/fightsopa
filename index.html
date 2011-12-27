@@ -210,7 +210,12 @@ new TWTR.Widget({
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript">
   window.updateApp = function(data) {
+    var max_users = 10000;
     var total = data['total'];
+    if(total > max_users) {
+      total = max_users;
+    }
+    total = total * 5; // 5 dollars for each person
     var formatted = total >= 1000 ? Math.floor(total / 1000) + "," + (total % 1000) : total;
     $("#raisedmoney").text(formatted);
     $("#counterbox").removeClass("loading");
