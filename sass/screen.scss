@@ -25,16 +25,6 @@ body {
   background: $background-color;
   @include background(image-url("/images/bg_fightsopa.gif"));
   
-  #share {
-    position: fixed;
-    top: 5px;
-    left: 5px;
-    div, iframe, .twitter-share-button, .g-plusone, .fb-sopa, .fb-facepile {
-      display: block;
-      margin-bottom: 10px;
-    }
-  }
-  
   #container {
     // @include showgrid;
     @include container;
@@ -52,8 +42,20 @@ body {
     width: $blueprint-container-size;
     height: $header-height;
     border-bottom: 2px solid lighten($text-color, 50%); 
+
+    ul#share {
+      @include horizontal-list;
+      @include float-left;
+      margin-top: 3px;
+      li {
+        width: 100px;
+        .twitter-share-button, .fb-like {
+          margin-top: 2px;
+        }
+      }
+    }
     
-    ul {
+    ul#nav {
       @include horizontal-list;
       @include float-right;
       li {
