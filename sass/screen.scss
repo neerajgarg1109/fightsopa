@@ -333,7 +333,7 @@ body {
       text-align: center;
       width: 250px;
       @include box-shadow(rgba(black, 0.2) 1px 1px 10px);
-      @include transition(opacity, 1s);
+      @include single-transition(opacity, 1s);
       &:last-child {
         /* this is the backside */
         background: blue;
