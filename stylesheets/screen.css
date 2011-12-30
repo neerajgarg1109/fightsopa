@@ -603,3 +603,81 @@ body .sectionhead a:before {
   content: "^";
   margin-right: 5px;
 }
+/* line 315, ../sass/screen.scss */
+body #github {
+  display: none;
+  right: -65px;
+  height: 30px;
+  top: 40px;
+  position: absolute;
+  text-decoration: none;
+  width: 250px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 324, ../sass/screen.scss */
+body #github span {
+  background: black;
+  color: white;
+  font-size: 14px;
+  right: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  -moz-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 335, ../sass/screen.scss */
+body #github span:last-child {
+  /* this is the backside */
+  background: blue;
+  opacity: 0;
+}
+/* line 342, ../sass/screen.scss */
+body #github :hover span:first-child {
+  opacity: 0;
+}
+/* line 345, ../sass/screen.scss */
+body #github :hover span:last-child {
+  opacity: 1;
+}
+@media all and (-webkit-transform-3d) {
+  /* line 353, ../sass/screen.scss */
+  body #github span {
+    opacity: 1 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1s;
+  }
+  /* line 357, ../sass/screen.scss */
+  body #github span:last-child {
+    -webkit-transform: rotateX(180deg);
+  }
+  /* line 362, ../sass/screen.scss */
+  body #github:hover span:first-child {
+    -webkit-transform: rotateX(180deg);
+  }
+  /* line 365, ../sass/screen.scss */
+  body #github:hover span:last-child {
+    -webkit-transform: rotateX(360deg);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 373, ../sass/screen.scss */
+  body #github {
+    display: block;
+  }
+}
